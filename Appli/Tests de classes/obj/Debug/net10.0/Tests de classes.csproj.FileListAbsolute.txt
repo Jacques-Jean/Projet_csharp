@@ -1,0 +1,18 @@
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\Tests de classes\bin\Debug\net10.0\Tests de classes.exe
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\Tests de classes\bin\Debug\net10.0\Tests de classes.deps.json
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\Tests de classes\bin\Debug\net10.0\Tests de classes.runtimeconfig.json
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\Tests de classes\bin\Debug\net10.0\Tests de classes.dll
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\Tests de classes\bin\Debug\net10.0\Tests de classes.pdb
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\Tests de classes\bin\Debug\net10.0\Bibliotheque_classes.dll
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\Tests de classes\bin\Debug\net10.0\Bibliotheque_classes.pdb
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\Tests de classes\obj\Debug\net10.0\Tests de classes.csproj.AssemblyReference.cache
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\Tests de classes\obj\Debug\net10.0\Tests de classes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\Tests de classes\obj\Debug\net10.0\Tests de classes.AssemblyInfoInputs.cache
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\Tests de classes\obj\Debug\net10.0\Tests de classes.AssemblyInfo.cs
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\Tests de classes\obj\Debug\net10.0\Tests de classes.csproj.CoreCompileInputs.cache
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\Tests de classes\obj\Debug\net10.0\Tests de.3DB98792.Up2Date
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\Tests de classes\obj\Debug\net10.0\Tests de classes.dll
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\Tests de classes\obj\Debug\net10.0\refint\Tests de classes.dll
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\Tests de classes\obj\Debug\net10.0\Tests de classes.pdb
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\Tests de classes\obj\Debug\net10.0\Tests de classes.genruntimeconfig.cache
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\Tests de classes\obj\Debug\net10.0\ref\Tests de classes.dll

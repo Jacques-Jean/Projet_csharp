@@ -1,0 +1,528 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\parametresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\parametresservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFF7A1F-7BAA-4207-B231-C415F36A670F}|Bibliotheque_classes\\Bibliotheque_classes.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\bibliotheque_classes\\series.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BFF7A1F-7BAA-4207-B231-C415F36A670F}|Bibliotheque_classes\\Bibliotheque_classes.csproj|solutionrelative:bibliotheque_classes\\series.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\parametres.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\parametres.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFF7A1F-7BAA-4207-B231-C415F36A670F}|Bibliotheque_classes\\Bibliotheque_classes.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\bibliotheque_classes\\seance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BFF7A1F-7BAA-4207-B231-C415F36A670F}|Bibliotheque_classes\\Bibliotheque_classes.csproj|solutionrelative:bibliotheque_classes\\seance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BFF7A1F-7BAA-4207-B231-C415F36A670F}|Bibliotheque_classes\\Bibliotheque_classes.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\bibliotheque_classes\\exercice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BFF7A1F-7BAA-4207-B231-C415F36A670F}|Bibliotheque_classes\\Bibliotheque_classes.csproj|solutionrelative:bibliotheque_classes\\exercice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\modifierserieswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\modifierserieswindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\modifierserieswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\modifierserieswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\parametres.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\parametres.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\gymapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\gymapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\ajouterexercicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\ajouterexercicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\supprimerseancewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\supprimerseancewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\ajouterseriewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\ajouterseriewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\supprimerseancewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\supprimerseancewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\ajouterexercicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\ajouterexercicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\couleurseanceconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\couleurseanceconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\supprimerexercicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\supprimerexercicewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\supprimerexercicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\supprimerexercicewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\seanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\seanceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\ajouterseriewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\ajouterseriewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\ajouterseancewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\ajouterseancewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\exerciceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\exerciceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\ajouterseancewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\ajouterseancewindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\obj\\Debug\\net10.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\obj\\Debug\\net10.0-windows\\App.g.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{176E9E9B-AC32-45BD-8E26-73E3CD4FE8E8}|Tests de classes\\Tests de classes.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\tests de classes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{176E9E9B-AC32-45BD-8E26-73E3CD4FE8E8}|Tests de classes\\Tests de classes.csproj|solutionrelative:tests de classes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|c:\\users\\jacques-jean\\desktop\\bache\\c#\\projet_csharp\\appli\\wpfapp1\\gymapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{5615AF05-3998-2974-ACA5-EB93E9E0DEBE}|WpfApp1\\GymApp.csproj|solutionrelative:wpfapp1\\gymapp.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-06T19:22:49.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T10:11:56.046Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\AssemblyInfo.cs",
+              "RelativeToolTip": "WpfApp1\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T09:27:06.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ParametresService.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\ParametresService.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ParametresService.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\ParametresService.cs",
+              "RelativeToolTip": "WpfApp1\\ParametresService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAswCEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T17:22:44.274Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Exercice.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\Bibliotheque_classes\\Exercice.cs",
+              "RelativeDocumentMoniker": "Bibliotheque_classes\\Exercice.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\Bibliotheque_classes\\Exercice.cs",
+              "RelativeToolTip": "Bibliotheque_classes\\Exercice.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwA4AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-26T21:35:36.636Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Seance.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\Bibliotheque_classes\\Seance.cs",
+              "RelativeDocumentMoniker": "Bibliotheque_classes\\Seance.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\Bibliotheque_classes\\Seance.cs",
+              "RelativeToolTip": "Bibliotheque_classes\\Seance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T07:39:17.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Series.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\Bibliotheque_classes\\Series.cs",
+              "RelativeDocumentMoniker": "Bibliotheque_classes\\Series.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\Bibliotheque_classes\\Series.cs",
+              "RelativeToolTip": "Bibliotheque_classes\\Series.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA3wBoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T10:23:53.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Parametres.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\Parametres.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Parametres.xaml.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\Parametres.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\Parametres.xaml.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAiwBgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T07:59:34.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ModifierSeriesWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\ModifierSeriesWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ModifierSeriesWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\ModifierSeriesWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\ModifierSeriesWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T13:44:33.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ModifierSeriesWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\ModifierSeriesWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\ModifierSeriesWindow.xaml",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\ModifierSeriesWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\ModifierSeriesWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-07T13:43:55.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\App.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T10:10:47.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\App.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\App.xaml",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\App.xaml",
+              "RelativeToolTip": "WpfApp1\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-14T21:14:31.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\MainViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\MainViewModel.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\MainViewModel.cs",
+              "RelativeToolTip": "WpfApp1\\MainViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T17:49:45.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AjouterExerciceWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\AjouterExerciceWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\AjouterExerciceWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\AjouterExerciceWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\AjouterExerciceWindow.xaml.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAIwCQAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T18:20:07.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Parametres.xaml",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\Parametres.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Parametres.xaml",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\Parametres.xaml",
+              "RelativeToolTip": "WpfApp1\\Parametres.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-14T07:57:45.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GymApp.csproj",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\GymApp.csproj",
+              "RelativeDocumentMoniker": "WpfApp1\\GymApp.csproj",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\GymApp.csproj",
+              "RelativeToolTip": "WpfApp1\\GymApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-26T21:35:51.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\18\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAAAVAAAAAAAAAAAvwBsVAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-04-03T08:52:28.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SupprimerSeanceWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\SupprimerSeanceWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\SupprimerSeanceWindow.xaml",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\SupprimerSeanceWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\SupprimerSeanceWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-07T09:19:28.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SupprimerSeanceWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\SupprimerSeanceWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\SupprimerSeanceWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\SupprimerSeanceWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\SupprimerSeanceWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwB4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T09:50:05.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AjouterSerieWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\AjouterSerieWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\AjouterSerieWindow.xaml",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\AjouterSerieWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\AjouterSerieWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-06T18:33:16.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AjouterExerciceWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\AjouterExerciceWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\AjouterExerciceWindow.xaml",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\AjouterExerciceWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\AjouterExerciceWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-06T18:19:24.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SupprimerExerciceWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\SupprimerExerciceWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\SupprimerExerciceWindow.xaml",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\SupprimerExerciceWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\SupprimerExerciceWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-06T19:40:52.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SupprimerExerciceWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\SupprimerExerciceWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\SupprimerExerciceWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\SupprimerExerciceWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\SupprimerExerciceWindow.xaml.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAuwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T19:53:20.747Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CouleurSeanceConverter.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\CouleurSeanceConverter.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\CouleurSeanceConverter.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\CouleurSeanceConverter.cs",
+              "RelativeToolTip": "WpfApp1\\CouleurSeanceConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T20:50:00.002Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SeanceService.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\SeanceService.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\SeanceService.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\SeanceService.cs",
+              "RelativeToolTip": "WpfApp1\\SeanceService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowCMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T09:59:37.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AjouterSerieWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\AjouterSerieWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\AjouterSerieWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\AjouterSerieWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\AjouterSerieWindow.xaml.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAmwDkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T18:33:33.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "AjouterSeanceWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\AjouterSeanceWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\AjouterSeanceWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\AjouterSeanceWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\AjouterSeanceWindow.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-07T09:54:29.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ExerciceService.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\ExerciceService.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ExerciceService.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\ExerciceService.cs",
+              "RelativeToolTip": "WpfApp1\\ExerciceService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBoAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T17:54:25.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AjouterSeanceWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\AjouterSeanceWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\AjouterSeanceWindow.xaml",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\AjouterSeanceWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\AjouterSeanceWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-07T09:18:40.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "GymApp",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\GymApp.csproj",
+              "RelativeDocumentMoniker": "WpfApp1\\GymApp.csproj",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\GymApp.csproj",
+              "RelativeToolTip": "WpfApp1\\GymApp.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-10T10:09:28.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "App.g.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\obj\\Debug\\net10.0-windows\\App.g.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\obj\\Debug\\net10.0-windows\\App.g.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\obj\\Debug\\net10.0-windows\\App.g.cs",
+              "RelativeToolTip": "WpfApp1\\obj\\Debug\\net10.0-windows\\App.g.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAuwFQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-10T10:21:21.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\Tests de classes\\Program.cs",
+              "RelativeDocumentMoniker": "Tests de classes\\Program.cs",
+              "ToolTip": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\Tests de classes\\Program.cs",
+              "RelativeToolTip": "Tests de classes\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T08:47:13.312Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

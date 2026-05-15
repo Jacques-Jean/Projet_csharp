@@ -1,0 +1,14 @@
+[
+  {
+    "Nom": "Pompes",
+    "ImagePath": "blank.jpg",
+    "Description": "Bras tendus",
+    "FocusedMuscle": "Pectoraux"
+  },
+  {
+    "Nom": "Exercice",
+    "ImagePath": "Assets/images/blank.png",
+    "Description": "",
+    "FocusedMuscle": ""
+  }
+]

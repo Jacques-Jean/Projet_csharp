@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Bibliotheque_classes/Bibliotheque_classes.csproj" Id="6bff7a1f-7baa-4207-b231-c415f36a670f" />
+  <Project Path="Tests de classes/Tests de classes.csproj" Id="176e9e9b-ac32-45bd-8e26-73e3cd4fe8e8" />
+  <Project Path="WpfApp1/GymApp.csproj" />
+</Solution>

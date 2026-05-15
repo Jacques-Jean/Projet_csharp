@@ -1,0 +1,20 @@
+﻿<Window x:Class="GymApp.AjouterSeanceWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Ajouter une Seance" Height="Auto" Width="440"
+        WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
+    <StackPanel Margin="25">
+        <TextBlock Text="Nouvel seance" FontSize="16" FontWeight="Bold" Margin="0,0,0,20"/>
+
+        <TextBlock Text="Nom *" Foreground="#555" Margin="0,0,0,4"/>
+        <TextBox x:Name="TxtNom" Height="34" Padding="8,6" BorderBrush="#DDD" Margin="0,0,0,12"/>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+            <Button Content="Annuler" Width="90" Height="35" Margin="0,0,10,0"
+                    Click="BtnAnnuler_Click" Background="#EEE" BorderThickness="0"/>
+            <Button Content="Ajouter" Width="90" Height="35"
+                    Background="#E94560" Foreground="White"
+                    BorderThickness="0" Click="BtnAjouter_Click"/>
+        </StackPanel>
+    </StackPanel>
+</Window>

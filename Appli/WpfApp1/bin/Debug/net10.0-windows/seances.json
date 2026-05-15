@@ -1,0 +1,91 @@
+[
+  {
+    "Nom": "Push Day",
+    "ImagePath": "Assets/images/blank.png",
+    "ListeSeries": [
+      {
+        "Repetitions": 10,
+        "Poids": 80,
+        "Adding": true,
+        "exercice": {
+          "Nom": "D\u00E9velopp\u00E9 couch\u00E9",
+          "ImagePath": "Assets/images/blank.png",
+          "Description": "Exercice de poitrine.",
+          "FocusedMuscle": "Pectoraux"
+        }
+      },
+      {
+        "Repetitions": 5,
+        "Poids": 90,
+        "Adding": true,
+        "exercice": {
+          "Nom": "D\u00E9velopp\u00E9 couch\u00E9",
+          "ImagePath": "Assets/images/blank.png",
+          "Description": "Exercice de poitrine.",
+          "FocusedMuscle": "Pectoraux"
+        }
+      },
+      {
+        "Repetitions": 5,
+        "Poids": 0,
+        "Adding": true,
+        "exercice": {
+          "Nom": "Traction",
+          "ImagePath": "Assets/images/blank.png",
+          "Description": "Exercice de dos.",
+          "FocusedMuscle": "Dos"
+        }
+      },
+      {
+        "Repetitions": 5,
+        "Poids": 0,
+        "Adding": true,
+        "exercice": {
+          "Nom": "Traction",
+          "ImagePath": "Assets/images/blank.png",
+          "Description": "Exercice de dos.",
+          "FocusedMuscle": "Dos"
+        }
+      },
+      {
+        "Repetitions": 5,
+        "Poids": 0,
+        "Adding": true,
+        "exercice": {
+          "Nom": "Traction",
+          "ImagePath": "Assets/images/blank.png",
+          "Description": "Exercice de dos.",
+          "FocusedMuscle": "Dos"
+        }
+      },
+      {
+        "Repetitions": 7,
+        "Poids": 2,
+        "Adding": true,
+        "exercice": {
+          "Nom": "Traction",
+          "ImagePath": "Assets/images/blank.png",
+          "Description": "Exercice de dos.",
+          "FocusedMuscle": "Dos"
+        }
+      }
+    ]
+  },
+  {
+    "Nom": "Pull Day",
+    "ImagePath": "Assets/images/blank.png",
+    "ListeSeries": [
+      {
+        "Repetitions": 6,
+        "Poids": 0,
+        "Adding": true,
+        "exercice": {
+          "Nom": "Traction",
+          "ImagePath": "Assets/images/blank.png",
+          "Description": "Exercice de dos.",
+          "FocusedMuscle": "Dos"
+        }
+      }
+    ]
+  }
+]
