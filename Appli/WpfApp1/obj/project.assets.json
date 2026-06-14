@@ -1,7 +1,7 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
-    "net10.0-windows7.0": {
+    "net10.0-windows": {
       "Bibliotheque_classes/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -22,7 +22,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net10.0-windows7.0": [
+    "net10.0-windows": [
       "Bibliotheque_classes >= 1.0.0"
     ]
   },
@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\GymApp.csproj",
+      "projectUniqueName": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp_fonctionne_pas\\Appli\\WpfApp1\\GymApp.csproj",
       "projectName": "GymApp",
-      "projectPath": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\GymApp.csproj",
+      "projectPath": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp_fonctionne_pas\\Appli\\WpfApp1\\GymApp.csproj",
       "packagesPath": "C:\\Users\\jacques-jean\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\WpfApp1\\obj\\",
+      "outputPath": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp_fonctionne_pas\\Appli\\WpfApp1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jacques-jean\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,11 +50,12 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net10.0-windows7.0": {
+        "net10.0-windows": {
+          "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
           "projectReferences": {
-            "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\Bibliotheque_classes\\Bibliotheque_classes.csproj": {
-              "projectPath": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp\\Appli\\Bibliotheque_classes\\Bibliotheque_classes.csproj"
+            "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp_fonctionne_pas\\Appli\\Bibliotheque_classes\\Bibliotheque_classes.csproj": {
+              "projectPath": "C:\\Users\\jacques-jean\\Desktop\\BacHE\\c#\\Projet_csharp_fonctionne_pas\\Appli\\Bibliotheque_classes\\Bibliotheque_classes.csproj"
             }
           }
         }
@@ -69,10 +70,11 @@
         "auditLevel": "low",
         "auditMode": "all"
       },
-      "SdkAnalysisLevel": "10.0.200"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
-      "net10.0-windows7.0": {
+      "net10.0-windows": {
+        "framework": "net10.0-windows7.0",
         "targetAlias": "net10.0-windows",
         "imports": [
           "net461",
@@ -93,7 +95,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

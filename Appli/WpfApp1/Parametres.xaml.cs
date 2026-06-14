@@ -23,9 +23,7 @@ namespace GymApp
 
             var dict = System.Windows.Application.Current.Resources;
             var brush = dict["AppBackground"] as System.Windows.Media.SolidColorBrush;
-            MessageBox.Show($"ModeNuit: {ParametresService.Instance.ModeNuit}\n" +
-                            $"AppBackground color: {brush?.Color}\n" +
-                            $"Brush is frozen: {brush?.IsFrozen}");
+            
 
             DialogResult = true;
             Close();

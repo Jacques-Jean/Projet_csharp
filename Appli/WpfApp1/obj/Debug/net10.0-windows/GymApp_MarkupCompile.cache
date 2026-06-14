@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\WpfApp1\obj\Debug\net10.0-windows\
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp_fonctionne_pas\Appli\WpfApp1\obj\Debug\net10.0-windows\
 GymApp
 none
 false
 TRACE;DEBUG;NET;NET10_0;NETCOREAPP;WINDOWS;WINDOWS7_0;NET5_0_OR_GREATER;NET6_0_OR_GREATER;NET7_0_OR_GREATER;NET8_0_OR_GREATER;NET9_0_OR_GREATER;NET10_0_OR_GREATER;NETCOREAPP3_0_OR_GREATER;NETCOREAPP3_1_OR_GREATER;WINDOWS7_0_OR_GREATER
-C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp\Appli\WpfApp1\App.xaml
+C:\Users\jacques-jean\Desktop\BacHE\c#\Projet_csharp_fonctionne_pas\Appli\WpfApp1\App.xaml
 8-274573105
 
-16-1820756346
-207366205120
+17775558029
+2071711780556
 AjouterExerciceWindow.xaml;AjouterSeanceWindow.xaml;AjouterSerieWindow.xaml;MainWindow.xaml;ModifierSeriesWindow.xaml;Parametres.xaml;SupprimerExerciceWindow.xaml;SupprimerSeanceWindow.xaml;
 
 False

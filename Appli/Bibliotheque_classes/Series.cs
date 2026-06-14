@@ -6,14 +6,14 @@ namespace Bibliotheque_classes
     {
         public int Repetitions { get; set; } 
 
-        public int Poids { get; set; }
+        public double Poids { get; set; }
 
         public bool Adding { get; set; }
 
         public Exercice exercice { get; set; }
 
         public Series(int repetitions = 0,
-                      int poids = 0,
+                      double poids = 0,
                       bool adding = true,
                       Exercice exo = null)
         {

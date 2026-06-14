@@ -7,6 +7,7 @@
 
     <Window.Resources>
         <local:CouleurSeanceConverter x:Key="CouleurSeanceConverter"/>
+        <local:PoidsConverter x:Key="PoidsConverter"/>
     </Window.Resources>
 
     <Grid>
@@ -120,7 +121,7 @@
                                                                            Foreground="{DynamicResource AppTextSub}"
                                                                            TextAlignment="Right">
                                                                     <TextBlock.Text>
-                                                                        <MultiBinding StringFormat="{}{0} {1}">
+                                                                        <MultiBinding Converter="{StaticResource PoidsConverter}">
                                                                             <Binding Path="Poids"/>
                                                                             <Binding Path="UnitePoids"
                                                                                      Source="{x:Static local:ParametresService.Instance}"/>

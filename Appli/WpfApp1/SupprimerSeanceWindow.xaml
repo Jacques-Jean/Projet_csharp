@@ -1,22 +1,44 @@
 ﻿<Window x:Class="GymApp.SupprimerSeanceWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Supprimer une seance" Height="200" Width="350" 
-        WindowStartupLocation="CenterOwner" Background="#F5F5F5">
-    <StackPanel Margin="20">
-        <TextBlock Text="Choisir la seance à supprimer :" 
-                   Margin="0,0,0,10" FontWeight="Bold" FontSize="14"/>
+        Title="Supprimer une séance" SizeToContent="Height" Width="350" 
+        WindowStartupLocation="CenterOwner" ResizeMode="NoResize"
+        Background="{DynamicResource AppBackground}">
+    <Grid Margin="25">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="15"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="25"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
 
-        <ComboBox x:Name="ComboSeances" 
+        <TextBlock Grid.Row="0" Text="Choisir la séance à supprimer :" 
+                   FontWeight="Bold" FontSize="14" 
+                   Foreground="{DynamicResource AppTextMain}"/>
+
+        <ComboBox Grid.Row="2" x:Name="ComboSeances" 
                   DisplayMemberPath="Nom" 
-                  Height="35" VerticalContentAlignment="Center"/>
+                  Height="35" VerticalContentAlignment="Center"
+                  Background="{DynamicResource AppCardBg}" 
+                  Foreground="Black" 
+                  BorderBrush="{DynamicResource AppTextSub}"/>
 
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,25,0,0">
-            <Button Content="Annuler" Width="80" Height="30" Margin="5" 
-                    IsCancel="True" Background="#CCC" BorderThickness="0"/>
-            <Button Content="Supprimer" Width="90" Height="30" Margin="5" 
-                    Background="#E94560" Foreground="White" BorderThickness="0"
-                    Click="BtnConfirmer_Click"/>
-        </StackPanel>
-    </StackPanel>
+        <Grid Grid.Row="4" HorizontalAlignment="Right">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Column="0" Content="Annuler" Width="80" Height="30" Margin="0,0,10,0" 
+                    IsCancel="True" 
+                    Background="{DynamicResource AppCardBg}" 
+                    Foreground="{DynamicResource AppTextMain}" 
+                    BorderBrush="{DynamicResource AppTextSub}"/>
+
+            <Button Grid.Column="1" Content="Supprimer" Width="90" Height="30" 
+                    Background="#E94560" Foreground="White" 
+                    BorderThickness="0" Click="BtnConfirmer_Click"/>
+        </Grid>
+    </Grid>
 </Window>

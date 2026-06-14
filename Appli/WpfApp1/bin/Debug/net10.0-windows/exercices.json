@@ -24,15 +24,15 @@
     "FocusedMuscle": "Quadriceps"
   },
   {
-    "Nom": "kk",
-    "ImagePath": "Assets/images/blank.png",
-    "Description": "kk",
-    "FocusedMuscle": "kk"
-  },
-  {
     "Nom": "Skull Crushers",
     "ImagePath": "Assets/images/blank.png",
     "Description": "\u00C9l\u00E9vation verticale sup\u00E9rieure d\u0027une barre Z pour d\u00E9velopper le faisceau long du triceps",
     "FocusedMuscle": "Triceps"
+  },
+  {
+    "Nom": "pec fly",
+    "ImagePath": "Assets/images/blank.png",
+    "Description": "",
+    "FocusedMuscle": "pectoraux"
   }
 ]

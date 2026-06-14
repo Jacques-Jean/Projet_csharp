@@ -46,17 +46,23 @@ namespace GymApp
                                 MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
-
-            if (!int.TryParse(TxtPoids.Text, out int poids))
+            if (!double.TryParse(TxtPoids.Text, out double poidsSaisi))
             {
-                MessageBox.Show("Entre un poids valide.", "Erreur",
-                                MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Entre un poids valide.", "Erreur", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
-            _seance.ListeSeries.Add(new Series(reps, poids, true, exo));
-            TxtReps.Text = "";
-            TxtPoids.Text = "";
+            // Récupérer l'unité active depuis vos paramètres
+            string unite = ParametresService.Instance.UnitePoids;
+
+            // Si l'unité est "lbs", on convertit en kg pour stocker uniformément
+            // 1 lb = 0.453592 kg
+            double poidsEnKg = (unite == "lbs") ? poidsSaisi * 0.453592 : poidsSaisi;
+
+            // Changez cette ligne :
+            _seance.ListeSeries.Add(new Series(reps, (int)poidsEnKg, true, exo));
+            TxtReps.Clear();
+            TxtPoids.Clear();
         }
 
         private void BtnSupprimerSerie_Click(object sender, RoutedEventArgs e)

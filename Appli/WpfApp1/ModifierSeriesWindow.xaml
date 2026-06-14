@@ -1,86 +1,111 @@
 ﻿<Window x:Class="GymApp.ModifierSeriesWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:GymApp"
         Title="Modifier les séries" Height="Auto" Width="480"
-        WindowStartupLocation="CenterOwner" ResizeMode="NoResize">
-    <StackPanel Margin="25">
-        <TextBlock FontSize="16" FontWeight="Bold" Margin="0,0,0,6">
+        SizeToContent="Height"
+        WindowStartupLocation="CenterOwner" ResizeMode="NoResize"
+        Background="{DynamicResource AppBackground}">
+
+    <Window.Resources>
+        <local:CouleurSeanceConverter x:Key="CouleurSeanceConverter"/>
+        <local:PoidsConverter x:Key="PoidsConverter"/>
+    </Window.Resources>
+
+    <Grid Margin="25">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" FontSize="16" FontWeight="Bold" Margin="0,0,0,10" Foreground="{DynamicResource AppTextMain}">
             <Run Text="Séance : "/>
             <Run x:Name="RunNomSeance" Foreground="#E94560"/>
         </TextBlock>
 
-        <!-- Choix de l'exercice pour la nouvelle série -->
-        <TextBlock Text="Exercice à ajouter" Foreground="#555" Margin="0,10,0,4"/>
-        <Grid Margin="0,0,0,8">
+        <Grid Grid.Row="1" Margin="0,0,0,2">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="80"/>
                 <ColumnDefinition Width="80"/>
                 <ColumnDefinition Width="90"/>
             </Grid.ColumnDefinitions>
-            <ComboBox x:Name="ComboExercice" Grid.Column="0" Height="34"
-                      DisplayMemberPath="Nom" Margin="0,0,6,0"/>
-            <TextBox x:Name="TxtReps" Grid.Column="1" Height="34"
-                     Padding="6,4" BorderBrush="#DDD" Margin="0,0,6,0"
-                     Tag="Reps"/>
-            <TextBox x:Name="TxtPoids" Grid.Column="2" Height="34"
-                     Padding="6,4" BorderBrush="#DDD" Margin="0,0,6,0"
-                     Tag="kg"/>
-            <Button Grid.Column="3" Content="+ Ajouter" Height="34"
-                    Background="#E94560" Foreground="White"
-                    BorderThickness="0" Click="BtnAjouterSerie_Click"/>
+            <TextBlock Grid.Column="1" Text="Reps*" Foreground="{DynamicResource AppTextSub}" FontSize="11" Margin="0,0,6,0"/>
+            <TextBlock Grid.Column="2" Text="Poids" Foreground="{DynamicResource AppTextSub}" FontSize="11" Margin="0,0,6,0"/>
+
         </Grid>
 
-        <!-- En-têtes colonnes -->
-        <Grid Margin="0,8,0,4">
+        <Grid Grid.Row="2" Margin="0,0,0,8">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="80"/>
+                <ColumnDefinition Width="90"/>
+            </Grid.ColumnDefinitions>
+            <ComboBox x:Name="ComboExercice" Grid.Column="0" Height="34" Margin="0,0,6,0" DisplayMemberPath="Nom" 
+                      Background="{DynamicResource AppCardBg}" Foreground="Black"/>
+            <TextBox x:Name="TxtReps" Grid.Column="1" Height="34" Margin="0,0,6,0" 
+                     Background="{DynamicResource AppCardBg}" Foreground="{DynamicResource AppTextMain}"/>
+            <TextBox x:Name="TxtPoids" Grid.Column="2" Height="34" Margin="0,0,6,0" 
+                     Background="{DynamicResource AppCardBg}" Foreground="{DynamicResource AppTextMain}"/>
+            <Button Grid.Column="3" Content="+ Ajouter" Height="34" Background="#E94560" Foreground="White" BorderThickness="0" Click="BtnAjouterSerie_Click"/>
+        </Grid>
+
+        <Grid Grid.Row="3" Margin="0,8,0,4">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="80"/>
                 <ColumnDefinition Width="80"/>
                 <ColumnDefinition Width="36"/>
             </Grid.ColumnDefinitions>
-            <TextBlock Grid.Column="0" Text="Exercice"   Foreground="#888" FontSize="11"/>
-            <TextBlock Grid.Column="1" Text="Reps"       Foreground="#888" FontSize="11" TextAlignment="Center"/>
-            <TextBlock Grid.Column="2" Text="Poids (kg)" Foreground="#888" FontSize="11" TextAlignment="Center"/>
+            <TextBlock Grid.Column="0" Text="Exercice" Foreground="{DynamicResource AppTextSub}" FontSize="11"/>
+            <TextBlock Grid.Column="1" Text="Reps" Foreground="{DynamicResource AppTextSub}" FontSize="11" TextAlignment="Center"/>
+            <TextBlock Grid.Column="2" Text="Poids" Foreground="{DynamicResource AppTextSub}" FontSize="11" TextAlignment="Center"/>
         </Grid>
 
-        <!-- Liste des séries actuelles -->
-        <ItemsControl x:Name="ListeSeriesControl" MaxHeight="240">
-            <ItemsControl.ItemTemplate>
-                <DataTemplate>
-                    <Grid Margin="0,0,0,6">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="80"/>
-                            <ColumnDefinition Width="80"/>
-                            <ColumnDefinition Width="36"/>
-                        </Grid.ColumnDefinitions>
-                        <TextBlock Grid.Column="0" Text="{Binding exercice.Nom}"
-                                   VerticalAlignment="Center" Foreground="#333"/>
-                        <TextBlock Grid.Column="1"
-                                   Text="{Binding Repetitions, StringFormat='{}{0} reps'}"
-                                   VerticalAlignment="Center" Foreground="#555"
-                                   TextAlignment="Center"/>
-                        <TextBlock Grid.Column="2"
-                                   Text="{Binding Poids, StringFormat='{}{0} kg'}"
-                                   VerticalAlignment="Center" Foreground="#555"
-                                   TextAlignment="Center"/>
-                        <Button Grid.Column="3" Content="✕" Height="30" Width="30"
-                                Background="#EEE" BorderThickness="0"
-                                Tag="{Binding}" Click="BtnSupprimerSerie_Click"/>
-                    </Grid>
-                </DataTemplate>
-            </ItemsControl.ItemTemplate>
-        </ItemsControl>
+        <ScrollViewer Grid.Row="4" VerticalScrollBarVisibility="Auto" MaxHeight="240">
+            <ItemsControl x:Name="ListeSeriesControl">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="0,0,0,6">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="80"/>
+                                <ColumnDefinition Width="80"/>
+                                <ColumnDefinition Width="36"/>
+                            </Grid.ColumnDefinitions>
 
-        <!-- Fermer -->
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,20,0,0">
-            <Button Content="Annuler" Width="90" Height="35" Margin="0,0,10,0"
-            Background="#EEE" BorderThickness="0"
-            Click="BtnAnnuler_Click"/>
-            <Button Content="Confirmer" Width="90" Height="35"
-            Background="#1A1A2E" Foreground="White"
-            BorderThickness="0" Click="BtnConfirmer_Click"/>
-        </StackPanel>
-    </StackPanel>
+                            <TextBlock Grid.Column="0" Text="{Binding exercice.Nom}" VerticalAlignment="Center" Foreground="{DynamicResource AppTextMain}"/>
+                            <TextBlock Grid.Column="1" Text="{Binding Repetitions, StringFormat='{}{0} reps'}" VerticalAlignment="Center" Foreground="{DynamicResource AppTextMain}" TextAlignment="Center"/>
+
+                            <TextBlock Grid.Column="2" VerticalAlignment="Center" Foreground="{DynamicResource AppTextMain}" TextAlignment="Center">
+                                <TextBlock.Text>
+                                    <MultiBinding Converter="{StaticResource PoidsConverter}">
+                                        <Binding Path="Poids"/>
+                                        <Binding Path="UnitePoids" Source="{x:Static local:ParametresService.Instance}"/>
+                                    </MultiBinding>
+                                </TextBlock.Text>
+                            </TextBlock>
+
+                            <Button Grid.Column="3" Content="✕" Height="30" Width="30" Background="#EEE" BorderThickness="0" Tag="{Binding}" Click="BtnSupprimerSerie_Click"/>
+                        </Grid>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+
+        <Grid Grid.Row="5" HorizontalAlignment="Right" Margin="0,20,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Content="Annuler" Width="90" Height="35" Margin="0,0,10,0" Click="BtnAnnuler_Click"
+                    Background="{DynamicResource AppCardBg}" Foreground="{DynamicResource AppTextMain}" BorderBrush="{DynamicResource AppTextSub}"/>
+            <Button Grid.Column="1" Content="Confirmer" Width="90" Height="35" Background="#1A1A2E" Foreground="White" BorderThickness="0" Click="BtnConfirmer_Click"/>
+        </Grid>
+    </Grid>
 </Window>
